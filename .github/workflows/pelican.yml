@@ -14,9 +14,9 @@ jobs:
     #download zipfile
     - name: Download zipfile
       run: |
-        curl -s https://github.com/alexandrevicenzi/Flex/archive/refs/tags/v2.5.0.zip --output flex.zip
+        curl -s https://github.com/alexandrevicenzi/Flex/archive/refs/tags/v2.5.0.tar.gz --output flex.tgz
         mkdir themes
-        unzip flex.zip -d themes
+        tar -xzf flex.tgz -C themes
         mv themes/Flex-2.5.0 themes/flex
     - uses: pdm-project/setup-pdm@v3
       name: Setup PDM
