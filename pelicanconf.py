@@ -18,7 +18,7 @@ CC_LICENSE = {
     "slug": "by-sa"
 }
 
-COPYRIGHT_YEAR = 2020
+COPYRIGHT_YEAR = 2023
 
 PATH = 'content'
 
