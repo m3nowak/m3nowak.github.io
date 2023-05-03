@@ -162,3 +162,5 @@ cython_debug/
 
 # pelican output
 output/
+#pelican themes
+themes/

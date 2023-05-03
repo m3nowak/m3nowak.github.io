@@ -1,6 +1,24 @@
 AUTHOR = 'Mikołaj Nowak'
 SITENAME = 'Mikołaj Nowak - Blog'
 SITEURL = ''
+#SITEURL = "https://m3nowak.github.io"
+SITENAME = "Mikołaj's Blog"
+SITETITLE = "Mikołaj's Blog"
+SITESUBTITLE = "I do things on a computer"
+SITEDESCRIPTION = "Various notes on programming, devops and other things"
+
+THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
+
+BROWSER_COLOR = "#333"
+ROBOTS = "index, follow"
+
+CC_LICENSE = {
+    "name": "Creative Commons Attribution-ShareAlike",
+    "version": "4.0",
+    "slug": "by-sa"
+}
+
+COPYRIGHT_YEAR = 2020
 
 PATH = 'content'
 
@@ -16,16 +34,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Github', 'https://github.com/m3nowak'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', 'https://github.com/m3nowak'),
+          )
 
 DEFAULT_PAGINATION = 10
+THEME = 'themes/flex'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
