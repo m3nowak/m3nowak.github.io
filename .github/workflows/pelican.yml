@@ -11,6 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    #download zipfile
+    - name: Download zipfile
+      run: |
+        curl -s https://github.com/alexandrevicenzi/Flex/archive/refs/tags/v2.5.0.zip --output flex.zip
+        mkdir themes
+        unzip flex.zip -d themes
+        mv themes/Flex-2.5.0 themes/flex
     - uses: pdm-project/setup-pdm@v3
       name: Setup PDM
       with:
