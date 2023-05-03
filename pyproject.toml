@@ -1,0 +1,14 @@
+[tool.pdm]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Mikołaj Nowak", email = "12396461+m3nowak@users.noreply.github.com"},
+]
+dependencies = [
+    "pelican[markdown]>=4.8.0",
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}
